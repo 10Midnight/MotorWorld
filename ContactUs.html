@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+<head>
+	<title>MotorWorld</title>
+		<link rel="icon" type="image" href="icon.png"/>
+</head>
+
+<style>
+* {box-sizing: border-box;}
+body {margin: 0; font-family: Arial, Helvetica, sans-serif; background-color: aliceblue}
+
+	.header {overflow: hidden;
+  		background-color: #f1f1f1;
+  		padding-top: 10px;
+		padding-left: 25px;
+		padding-right: 25px}
+	.header a {float: left;
+		color: black;
+		text-align: center;
+		padding: 12px;
+  		text-decoration: none;
+  		font-size: 18px; 
+  		line-height: 25px;
+  		border-radius: 4px;}
+
+	.nav {overflow: hidden;
+ 		background-color:#2196F3;
+		padding-left: 10px}
+	.nav a {float: left;
+  			display: block;
+ 			color:aliceblue;
+ 			text-align: center;
+  			padding: 14px 16px;
+  			text-decoration: none;
+  			font-size: 17px}
+	.nav a:hover {background-color: aliceblue; 
+				color: black;}
+	.nav a.active {color:#FFCB0F;}
+	
+	.event {position: relative;}
+	.event .text {position: absolute;
+ 				bottom: 0; 
+ 				background: rgb(0, 0, 0);
+				background: rgba(0, 0, 0, 0.5);
+				color: #f1f1f1;
+  				width: 100%;
+  				padding: 20px;
+}
+
+</style>
+
+<body>
+<div class="header">
+ 		 <a href="default.html"><img src="Motor_world_logo-removebg-preview.png" height="80px" width="300" alt="Motor World logo"></a>
+  	</div>
+	<div class="nav">
+		<b>
+			<a  href="default.html">Home</a>
+			<a href="motorcycle.html">Motorcycle</a>
+			<a href="Blog.html">Blog</a>
+  			<a href="service.html">Services</a>
+			<a href="About Us.html">About Us</a>
+  			<a class="active" href="ContactUs.html">Contact Us</a>
+		</b>
+	</div>
+	<br>
+	<div style="display: table; clear: both; padding: 5%; margin-bottom: 0">
+		<div style="float: left; padding: 10px; width:33%">
+				<h1 style="color:#2196F3; margin-bottom: 0" align="left"><img src="location-icon.png" alt="location" width="30px"> &nbsp;Headquarter:</h1>
+			<br>
+				<p style="font-size: 19px; margin-bottom: 0" align="left">Visit our corporate office.</p>
+			<br>	
+				<h2 style="color: #FFCB0F" align="left">7th Floor Galleria Corporate Center, Bacolod City, Negros Occidental, Philippines 6100</h2>
+		</div>
+		<div style="float: left; padding: 10px; width: 33%">
+		
+					<h1 style="color:#2196F3; margin-bottom: 0" align="left" ><img src="contact icon.png" alt="call" width="32px"> &nbsp;Call to Us:</h1>
+			<br>
+					<p style="font-size: 19px; margin-bottom: 0" align="left">Our customer service is available from Monday to Friday, from 8AM to 5PM.</p>
+			<br>	
+					<h2 style="color: #FFCB0F" align="left">+6391 2266 3318</h2>
+		</div>
+		<div style="float: left; padding: 10px; width: 33%">
+		
+					<h1 style="color:#2196F3; margin-bottom: 0" align="left" ><img src="message-icon.png" alt="Write" width="35px"> &nbsp;Write to Us:</h1>
+			<br>
+					<p style="font-size: 19px; margin-bottom: 0" align="left">Fill out our form or directly email us to the email below. We will get back to your query in 48 hours.</p>
+			<br>	
+					<h2 style="color: #FFCB0F" align="left">info@MotorWorld_2023.com.ph</h2>
+		</div>
+	</div>
+	<div style="padding-left: 25%; padding-right: 25%; padding-top: 1%; margin-top: 0">
+		<h1 style="text-align: center">Contact Form</h1>
+		<h1>About you</h1>
+			<hr style="margin-top: 0">
+				<p><strong style="font-size: 20px">Your Name</strong> <em style="color: #F90004">(Required)</em></p>
+	<form style="display: table; clear: both;">
+		<div style="float: left; padding: 10px; width:50%">
+  			<label for="fname">&nbsp; &nbsp;First name:</label><br>
+  				<input type="text" id="firstname" name="fname" value="" style=" border-radius: 18px; height: 35px; font-size: 20px; width: 100%">
+		</div>
+		<div style="float: left; padding: 10px; width:50%">
+  			<label for="lname">&nbsp; &nbsp;Last name:</label><br>
+  				<input type="text" id="lastname" name="lname" value="" style=" border-radius: 18px; height: 35px; font-size: 20px; width: 100%">
+		</div>
+	</form>
+		
+		<h1>How Can We Reach You?</h1>
+			<p>We would love to chat with you. How can we get in touch?</p>
+				<hr style="margin-top: 0">
+			<p><strong style="font-size: 20px">Your Email Address</strong> <em style="color: #F90004">(Required)</em></p>
+	<form style="display: table; clear: both;">
+		<div style="float: left; padding: 10px; width:50%">
+  			<label for="Email">&nbsp; &nbsp;Email:</label><br>
+  				<input type="text" id="Email" name="Email" value="" style=" border-radius: 18px; height: 35px; font-size: 20px; width: 100%">
+		</div>
+		<div style="float: left; padding: 10px; width:50%">
+  			<label for="ConEmail">&nbsp; &nbsp;Confirm Email:</label><br>
+  				<input type="text" id="conEmail" name="ConEmail" value="" style=" border-radius: 18px; height: 35px; font-size: 20px; width: 100%">
+		</div>
+	</form>
+		
+			<p><strong style="font-size: 20px">Your Phone</strong> <em style="color: #F90004">(Required)</em></p>
+	<form>
+		<div style="padding: 10px; width:50%">
+  			<label for="fname">&nbsp; &nbsp;Your Phone:</label><br>
+  				<input type="text" id="Phone" name="Phone number" value="" style=" border-radius: 18px; height: 35px; font-size: 20px; width: 100%">
+		</div>
+	</form>
+	<form>
+			<label for="time"><strong style="font-size: 20px">Best Time to Call You </strong><em style="color:#F90004">(Required)</em></label><br><br>
+		<select id="time" name="time" style=" border-radius: 18px; height: 35px; font-size: 20px; width: 50%">
+			<option value="9">&nbsp; &nbsp; 9 A.M.</option>
+			<option value="10">&nbsp; &nbsp; 10 A.M. </option>
+			<option value="11">&nbsp; &nbsp; 11 A.M. </option>
+			<option value="12">&nbsp; &nbsp; 12 A.M. </option>
+			<option value="1">&nbsp; &nbsp; 1 P.M. </option>
+			<option value="2">&nbsp; &nbsp; 2 P.M. </option>
+			<option value="3">&nbsp; &nbsp; 3 P.M. </option>
+			<option value="4">&nbsp; &nbsp; 4 P.M. </option>
+		</select>
+	</form>
+		<h1>What's on your mind?</h1>
+		<p>Please let us know what's on your mind. Have a question for us? Ask away.</p>
+		<hr style="margin-top: 0">
+		
+		<form>
+			<p><strong style="font-size: 20px">Your Comments/Questions</strong> <em style="color: #F90004">(Required)</em></p>
+			<textarea name="message" rows="10" cols="50%" style=" border-radius: 18px; font-size: 20px"></textarea>
+	  	</form>
+		<br>
+		<a href="ContactUs.html">
+	<button style="font-size: 25px; border-radius: 10px; background-color: #FFCB0F;"><strong>SUBMIT</strong></button>
+		</a>
+	</div>
+	<br>
+	<br>
+	<br>
+	<hr align="center" width="100%" size="10" color="#2196F3" style="margin-bottom: 0">
+	<div style="display: table; clear: both; background-color:#f1f1f1" >
+	<br>
+	<br>
+	<div style="float: left; padding: 10px; width:33.33%; padding-left:50px">
+		<center><img src="Motor_world_logo-removebg-preview.png" alt="logo">
+		<hr width="100%" color="#2196F3">
+		</center>
+		<h2 style="#2196F3">Stay updated with the latest news. Subscribe today and join our forum.</h2>
+  	<br>
+	<br>
+	</div>
+	<div style="float: left; padding: 10px; width: 33.33%; padding-top: 50px">
+			<center>
+					<h2 style="color:#2196F3; margin: 0">MOTORSIKLO SIGURADO,ALAGA KA DITO!</h2>
+						<p style="margin: 1; font-size: 20px">MotorWorld is commited in providing Total Customer Satisfaction to every ka-Moto!</p>
+					<br>
+					<h2 style="color:#2196F3; margin: 0">Our Partners</h2>
+						<p style="margin: 1; font-size: 20px">Robinsons Bank</p>
+						<p style="margin: 1; font-size: 20px">Pioneer Insurance</p>
+						<p style="margin: 1; font-size: 20px">Premium Bikes</p>
+			</center>
+	  </div>
+	
+	<div style="float: left; padding: 10px; width: 33.33%; padding-top: 50px">
+			<center>
+					<h2 style="color:#2196F3; margin: 0; font-size: 30px">Contact Info</h2>
+						<p style="margin: 3; font-size: 20px">Data Protection Officer - MotorWorld Nationwide Corporation</p>
+						<p style="margin: 1; font-size: 20px">Address: MotorWorld Center, 8, San Sebastian Street, corner Gatuslao St, Bacolod, 6100 Negros Occidental </p>
+						<p style="margin: 1; font-size: 20px">Contact No: 85376910 loc. 1431</p>
+			</center>
+	  </div>
+</div>
+	<div style="background-color:#f1f1f1">
+		<center>
+		<hr size="3px" style="margin-top: 0" color="#000000">
+		<p style="margin: 0; font-size: 100%">© 2023 MotorWorld. All Rights Reserved.</p>
+		</center>
+		<br>
+	</div>
+</body>
+</html>
